@@ -30,9 +30,14 @@ h1, h2 {
   color:#1B1B1B;
 }
 
+.description-page {
+  margin: 40px 0;
+}
+
 .description-page img {
   width: 100%;
   border-radius: 28px;
+  margin-bottom: 24px;
 }
 
 .description-page p {
@@ -47,12 +52,64 @@ h1, h2 {
   background:#D9D9D9;
 }
 
+.title-list {
+  margin: 64px 0;
+}
+
+.title-list span {
+  margin-bottom: 2px;
+}
+
 .title-list h2 {
   font-size: 32px;
   font-weight: 700;
+  margin-bottom: 8px;
+}
+
+.travel-card p {
+  margin-bottom: 20px;
+}
+
+.travel-card {
+  margin-bottom: 48px;
 }
 
 .travel-card img {
   width: 100%;
   border-radius: 28px;
+  margin-bottom: 20px;
+}
+
+ol li {
+  color:#1B1B1B;
+  font-size: 28px;
+  font-weight: 700;
+  margin-left: 24px;
+  margin-bottom: 4px;
+}
+
+ul li {
+  color:#0C51A7;
+  font-weight: 700;
+  margin-left: 24px;
+}
+
+.couples {
+  color: #591B98;
+}
+
+.families {
+  color: #E5245E;
+}
+
+.budget {
+  color: #E95E10;
+}
+
+.divisor:nth-last-child(2) {
+  margin: 40px 0;
+}
+
+.description {
+  text-align: center;
 }
