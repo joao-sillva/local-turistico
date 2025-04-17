@@ -113,3 +113,8 @@ ul li {
 .description {
   text-align: center;
 }
+
+footer {
+  text-align: center;
+  margin: 65px 0 48px;
+}
