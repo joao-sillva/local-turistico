@@ -4,25 +4,30 @@
   box-sizing: border-box;
 }
 
+:root {
+  font-size: 62.5%;
+}
+
 body {
   font-family: "Open Sans", sans-serif;
   background: #F5F4F0;
+  font-size: 1.6rem;
 }
 
 #container {
-  width: 800px;
-  margin: 88px auto;
+  width: 80rem;
+  margin: 8.8rem auto;
 }
 
 span {
   color:#E1624F;
   font-weight: 700;
   text-transform: uppercase;
-  margin-bottom: 8px;
+  margin-bottom: 0.8rem;
 }
 
 h1 {
-  font-size: 36px;
+  font-size: 3.6rem;
   font-weight: 700;
 }
 
@@ -31,13 +36,13 @@ h1, h2 {
 }
 
 .description-page {
-  margin: 40px 0;
+  margin: 4rem 0;
 }
 
 .description-page img {
   width: 100%;
-  border-radius: 28px;
-  margin-bottom: 24px;
+  border-radius: 2.8rem;
+  margin-bottom: 2.4rem;
 }
 
 .description-page p {
@@ -53,45 +58,45 @@ h1, h2 {
 }
 
 .title-list {
-  margin: 64px 0;
+  margin: 6.4rem 0;
 }
 
 .title-list span {
-  margin-bottom: 2px;
+  margin-bottom: 0.2rem;
 }
 
 .title-list h2 {
-  font-size: 32px;
+  font-size: 3.2rem;
   font-weight: 700;
-  margin-bottom: 8px;
+  margin-bottom: 0.8rem;
 }
 
 .travel-card p {
-  margin-bottom: 20px;
+  margin-bottom: 2rem;
 }
 
 .travel-card {
-  margin-bottom: 48px;
+  margin-bottom: 4.8rem;
 }
 
 .travel-card img {
   width: 100%;
-  border-radius: 28px;
-  margin-bottom: 20px;
+  border-radius: 2.8rem;
+  margin-bottom: 2rem;
 }
 
 ol li {
   color:#1B1B1B;
-  font-size: 28px;
+  font-size: 2.8rem;
   font-weight: 700;
-  margin-left: 24px;
-  margin-bottom: 4px;
+  margin-left: 2.4rem;
+  margin-bottom: 0.4rem;
 }
 
 ul li {
   color:#0C51A7;
   font-weight: 700;
-  margin-left: 24px;
+  margin-left: 2.4rem;
 }
 
 .couples {
@@ -107,7 +112,7 @@ ul li {
 }
 
 .divisor:nth-last-child(2) {
-  margin: 40px 0;
+  margin: 4rem 0;
 }
 
 .description {
@@ -116,5 +121,5 @@ ul li {
 
 footer {
   text-align: center;
-  margin: 65px 0 48px;
+  margin: 6.5rem 0 4.8rem;
 }
